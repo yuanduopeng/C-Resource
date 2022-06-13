@@ -2239,7 +2239,7 @@ int main() {
 
 
 友元的关键字为  ==friend==
-
+都是出现在类中
 
 
 友元的三种实现
@@ -2253,6 +2253,7 @@ int main() {
 
 
 #### 4.4.1 全局函数做友元
+* 在类内生命friend function，说明function和类是友元关系，可以访问类内私有成员。
 
 ```C++
 class Building
